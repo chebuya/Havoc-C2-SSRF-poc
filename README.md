@@ -1,7 +1,7 @@
 # Havoc-C2-SSRF-poc
 This exploit works by spoofing a demon agent registration and checkins to open a TCP socket on the teamserver and read/write data from it. This allows attackers to leak origin IPs of teamservers and much more.
 
-Target: https://github.com/HavocFramework/Havoc
+Target: https://github.com/HavocFramework/Havoc <br>
 Full analysis: https://blog.chebuya.com/posts/server-side-request-forgery-on-havoc-c2/
 
 https://github.com/user-attachments/assets/9ab99915-8a8c-4bbd-b762-00280a23703c
