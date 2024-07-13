@@ -6,7 +6,7 @@ Full analysis: https://blog.chebuya.com/posts/server-side-request-forgery-on-hav
 
 https://github.com/user-attachments/assets/9ab99915-8a8c-4bbd-b762-00280a23703c
 
-```bash
+```
 usage: exploit.py [-h] -t TARGET -i IP -p PORT [-A USER_AGENT] [-H HOSTNAME] [-u USERNAME] [-d DOMAIN_NAME]
                   [-n PROCESS_NAME] [-ip INTERNAL_IP]
 
