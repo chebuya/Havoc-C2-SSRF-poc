@@ -17,7 +17,7 @@ options:
   -i IP, --ip IP        The IP to open the socket with
   -p PORT, --port PORT  The port to open the socket with
   -A USER_AGENT, --user-agent USER_AGENT
-                        The URL for a havoc listener
+                        The User Agent for the spoofed agent
   -H HOSTNAME, --hostname HOSTNAME
                         The hostname for the spoofed agent
   -u USERNAME, --username USERNAME
