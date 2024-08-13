@@ -12,7 +12,7 @@ To hotpatch your teamserver:
 ```bash
 sed -i '/case COMMAND_SOCKET:/,/return true/d' teamserver/pkg/agent/agent.go
 ```
-4) Rebuild the teamserver
+3) Rebuild the teamserver
 ```bash
 make ts-build
 ```
