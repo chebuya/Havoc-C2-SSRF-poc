@@ -5,6 +5,18 @@ Full analysis: https://blog.chebuya.com/posts/server-side-request-forgery-on-hav
 
 https://github.com/user-attachments/assets/9ab99915-8a8c-4bbd-b762-00280a23703c
 
+To hotpatch your teamserver:
+
+1) Navigate to the Havoc directory
+2) Run the command
+```bash
+sed -i '/case COMMAND_SOCKET:/,/return true/d' teamserver/pkg/agent/agent.go
+```
+4) Rebuild the teamserver
+```bash
+make ts-build
+```
+
 ```
 usage: exploit.py [-h] -t TARGET -i IP -p PORT [-A USER_AGENT] [-H HOSTNAME] [-u USERNAME] [-d DOMAIN_NAME]
                   [-n PROCESS_NAME] [-ip INTERNAL_IP]
