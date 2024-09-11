@@ -1,5 +1,5 @@
 # CVE-2024-41570: Havoc-C2-SSRF-poc
-This exploit works by spoofing a demon agent registration and checkins to open a TCP socket on the teamserver and read/write data from it. This allows attackers to leak origin IPs of teamservers and much more.
+This vulnerability is exploited by spoofing a demon agent registration and checkins to open a TCP socket on the teamserver and read/write data from it. This allows attackers to leak origin IPs of teamservers and much more.
 
 Full analysis: https://blog.chebuya.com/posts/server-side-request-forgery-on-havoc-c2/
 
